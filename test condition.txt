@@ -1,0 +1,6 @@
+#!/bin/bash
+if test grep unix file > /dev/null 2> /dev/null then
+echo “The name unix is located in file1”
+else
+echo “No located in file1”
+end if
